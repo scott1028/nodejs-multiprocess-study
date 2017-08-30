@@ -32,6 +32,10 @@ function testcaseModule(){
     sp.on('message', function(e){
         console.log('Receive Buffer: ', new Buffer(e.data));
     });
+    sp.on('close', function(e){
+        console.log();
+        console.log(`child process closed!`);
+    })
 };
 
 // main
