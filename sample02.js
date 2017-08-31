@@ -21,7 +21,7 @@ if(cluster.isMaster) {
                 res(flag);
         });
     }).catch((e) => rej(e)).then(function(val){
-        console.log(val, `Total worker is done! ( all task is done! )`);
+        console.log(`Total: ${val} workers is done! ( all task is done! )`);
     });
 
     // Pass parameter to worker.
