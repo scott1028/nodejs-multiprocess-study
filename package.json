@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-multiprocess-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott1028/nodejs-multiprocess-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott1028/nodejs-multiprocess-study/issues"
+  },
+  "homepage": "https://github.com/scott1028/nodejs-multiprocess-study#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
