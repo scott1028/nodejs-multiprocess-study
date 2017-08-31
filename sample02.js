@@ -39,7 +39,7 @@ if(cluster.isMaster) {
     // make worker to be end and the master will not be blocked there.
     let time = 1000 * JSON.parse(process.env.preload).delta;
     console.log(`Time: ${time}`);
-    setTimeout(()=> process.exit(), time);
+    setTimeout(()=> process.exit(), time);  // or your worker got a exception, or raise a exception.
 }
 
 console.log('Final line For all');
